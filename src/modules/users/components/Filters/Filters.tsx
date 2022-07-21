@@ -95,13 +95,7 @@ const Filters = (props: Props) => {
                   />
                 </li>
                 <li>
-                  <Field
-                    name="state"
-                    component={SelectField}
-                    type="select"
-                    placeholder="State"
-                    options={countryList}
-                  />
+                  <Field name="state" component={InputField} type="select" placeholder="State" />
                 </li>
                 <li>
                   <FastField name="address" component={InputField} placeholder="Address" />

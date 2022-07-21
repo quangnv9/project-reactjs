@@ -1,0 +1,23 @@
+.user-content {
+  margin-top: 76px;
+  margin-left: 256px;
+  padding: 36px 36px 12px;
+  background-color: #1b1b38;
+  height: auto;
+  color: #fff;
+
+  .add-user {
+    margin: 20px 0;
+    background-color: #b18aff;
+    & > a {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+}
+.pagination > ul > li > button {
+  color: #fff;
+}
+.pagination > ul > li > div {
+  color: #fff;
+}

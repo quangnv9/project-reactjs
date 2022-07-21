@@ -1,0 +1,10 @@
+.form-field {
+  .select-field > div {
+    background-color: #252547;
+    border-color: #13132b;
+
+    & > div > div {
+      color: #fff;
+    }
+  }
+}

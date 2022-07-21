@@ -1,0 +1,17 @@
+.form-field {
+  & > div > div {
+    border-color: #13132b;
+  }
+  .multi-select-field > div > div {
+    background-color: #252547;
+
+    & > div {
+      background-color: transparent;
+
+      & > div {
+        border-color: #13132b;
+        color: #fff;
+      }
+    }
+  }
+}

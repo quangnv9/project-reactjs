@@ -1,0 +1,23 @@
+.content-table {
+  & > table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    background-color: #323259;
+  }
+  & > table > thead > tr > th {
+    border-bottom-color: #1e1e1e !important;
+    color: #fff;
+  }
+  & > table > tbody > tr {
+    line-height: 50px;
+  }
+  & > table > tbody > tr > th {
+    border-bottom-color: #1e1e1e;
+    color: #fff;
+  }
+  & > table > tbody > tr > td {
+    border-bottom-color: #1e1e1e;
+    color: #fff;
+  }
+}

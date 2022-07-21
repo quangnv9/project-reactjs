@@ -1,0 +1,66 @@
+.filters {
+  padding: 20px 20px 0 20px;
+  border: 1px solid #13132b;
+  background: #323259;
+  margin-bottom: 20px;
+  position: relative;
+  & > button {
+    background: #b18aff;
+    margin: 0 10px 20px 10px;
+    padding: 5px 30px;
+  }
+  & > ul {
+    margin-bottom: 20px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  & > ul > li {
+    padding: 0 10px;
+    flex: 1;
+  }
+  & > ul > li > div > input {
+    background-color: #252547;
+    color: #fff;
+  }
+  & > ul > li > div > input {
+    background-color: #252547;
+  }
+  & > ul > li > label {
+    margin: 0 15px 15px 5px;
+  }
+  & > ul > li > div > div {
+    background-color: #252547;
+  }
+  & > ul > li > div > div > div {
+    background-color: #252547;
+  }
+
+  & > ul > li > div > div > div > div > div {
+    background-color: transparent;
+    color: #fff;
+  }
+  & > ul > li > div > div > div > div > div > div {
+    color: #fff;
+  }
+  & > ul > li > div > input:focus {
+    background-color: #252547;
+    color: #fff;
+  }
+
+  & > .dropdown {
+    width: 50px;
+    background-color: #323259;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    & > svg {
+      font-size: 25px;
+    }
+  }
+}
